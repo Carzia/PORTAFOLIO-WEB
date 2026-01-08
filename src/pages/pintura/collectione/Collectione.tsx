@@ -64,7 +64,7 @@ export const Collectione = () => {
             navigate(`/pintura/Layout/collectione/${ item.id }`)
             )}
            className="flex flex-col items-center justify-center gap-1 h-full px-0">
-           <img src={`/imagines/pintura/${ item.imago }`} 
+           <img src={`/PORTAFOLIO-WEB/imagines/pintura/${ item.imago }`} 
             className="w-48 h-42 object-contain" 
             alt=""
             />

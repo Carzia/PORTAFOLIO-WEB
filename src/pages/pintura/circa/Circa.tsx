@@ -6,7 +6,7 @@ export const Circa = () => {
     <div className="flex flex-col lg:flex-row lg:justify-between items-center w-full max-w-[1400px] md:mx-auto my-8 gap-8 px-5 md:px-20">
 
 		 <figure className="flex justify-center items-center min-w-min order-2 lg:order-1">
-          <img src="/imagines/pintura/fondo.png" alt="" />
+          <img src="/PORTAFOLIO-WEB/imagines/pintura/fondo.png" alt="" />
         </figure>
        
       <div className="flex flex-col">

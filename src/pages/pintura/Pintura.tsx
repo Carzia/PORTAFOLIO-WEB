@@ -30,7 +30,7 @@ export const Pintura = () => {
     </div>
 
     <div className="flex gap-12">
-      <img src="/imagines/pintura/Ilustracion2.png" className="object-contain hidden md:block" alt="" width="650px" />
+      <img src="/PORTAFOLIO-WEB/imagines/pintura/Ilustracion2.png" className="object-contain hidden md:block" alt="" width="650px" />
 
     </div>
 

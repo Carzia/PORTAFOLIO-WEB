@@ -9,7 +9,7 @@ import { Home, Fotografia, Pintura, Layout, Circa, Collectione, Quote, } from ".
 export const AppRouter = () => {
 
   return (
-    <BrowserRouter> 
+    <BrowserRouter basename="/PORTAFOLIO-WEB/"> 
       <Routes>
         <Route path="/" element={ <Home />} />
          <Route path="/fotografia" element={<Fotografia/>} />
