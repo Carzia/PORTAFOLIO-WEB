@@ -1,0 +1,195 @@
+
+.fotografia{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* ******* NAVEGADOR ****** */
+
+
+
+.icon-home{
+    width: 3rem;
+    height: 3rem;
+    color: black;
+
+}
+.icon-home:hover {
+background-color: white;
+color: gray;
+}
+
+.extra-nav {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 11rem;
+    border-radius: 0 0 1rem 0;
+    box-shadow: 0 2px 5px rgba(9, 9, 9, 0.3);
+    z-index: 1;
+  
+ }
+
+
+ @media (min-width: 640px) {
+   .extra-nav {
+      width: 100%;
+      opacity: 1;
+      border-radius: 0;
+      
+    }
+}
+
+
+
+/* ******* PORTADA ****** */
+
+.titulus-img {
+    background-size: 100% 100%;
+    background-image: url("../imagines/fotografia/paisaje3.jpg");
+    min-height: 100vh;
+    background-position: center center;
+}
+
+.titulus > h1 {
+    position: absolute;
+    top: 36%;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulus-img > p {
+    position: absolute;
+    top: 63%;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2;
+    display: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 768px) {
+    .titulus-img > p {
+        display: block;
+    }
+}
+
+
+/* ******* IMAGENES ****** */
+
+#imagenes{
+
+ max-width: 420px;
+   margin: auto;
+   padding: 4rem;
+
+}
+ 
+.foto-titulus {
+   font-size: 2rem;
+   color: white;
+   background-color: rgba(93, 90, 90, 0.7); 
+   height: 5.5rem;
+}
+   
+.bodegon-arca {
+  
+    position: relative;
+    margin: auto;
+    margin-top: 2rem;
+    
+}
+.item {
+    position: relative;
+   
+}
+.item > img {
+   width: 450px;
+    position: relative;
+    margin-top: 1rem;
+    
+    object-fit: contain;
+    
+  
+   
+}
+.unus {
+   background-color: rgba(255, 255, 255, 0.8);
+   order: 2;
+}
+.duo {
+   background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tribus {
+   background-color: rgba(255, 255, 255, 0.8);
+   order: 3;
+}
+.notita > h2 {
+    font-size: 2rem;
+    color: black;
+    padding-bottom: 1rem;
+    font-weight: bold;
+   
+}
+.notita > small {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+   
+}
+.notitia{
+    
+    font-size: 1.2rem;
+    font-weight: lighter ;
+    width: 90%;
+   
+}
+@media (min-width: 320px) {
+   #imagenes {
+      max-width: 420px;
+
+   }
+}
+@media (min-width: 320px) {
+   #imagenes {
+      max-width: 420px;
+      
+   }
+.item {
+   
+   position: relative;
+   
+}
+.notita{
+   width: 20%;
+}
+.unus > img {
+order: -1;
+}
+
+}
+@media (min-width: 768px) {
+#imagenes{
+   max-width: 1020px;
+}
+.item{
+  
+   height: auto;
+}
+.bodegon-arca {
+  
+   
+   display: contents;
+   
+}
+.notita {
+   width: 37%;
+}
+}

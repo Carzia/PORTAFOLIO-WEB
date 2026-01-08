@@ -1,0 +1,67 @@
+
+
+.titulus-quote {
+font-size: 1.87rem;
+font-weight: 700;
+line-height: 2.25rem;
+margin-bottom: 1.25rem;
+}
+
+@media (min-width: 1024px) {
+    .titulus-quote{
+        font-size: 3rem;
+        line-height: 1;
+    }
+}
+
+.arca-quote {
+    font-size: 1.25rem;
+    background-color: rgb(131, 193, 252);
+    padding: 1.25 rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 48rem;
+}
+
+.quote{
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.8rem;
+    margin-bottom: 1.25rem;
+}
+
+@media (min-width: 900px) {
+    .quote{
+        font-size: 2.2rem;
+        line-height: 2.5rem;
+    }
+}
+
+.descriptione{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+    max-width: 48rem;
+}
+
+@media (min-width: 1024px) {
+    .descriptione{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
+
+.figure-quote{
+    display: flex;
+    justify-content: center;
+    min-width: min-content;
+}
+
+.figure-quote > img {
+    object-fit: contain;
+}
